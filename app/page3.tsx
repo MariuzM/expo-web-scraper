@@ -3,8 +3,6 @@ import { Alert } from 'react-native';
 import WebView, { WebViewMessageEvent } from 'react-native-webview';
 
 export default function Page3() {
-  const ref = useRef<WebView>(null);
-
   const jsCode = `
     const body = document.body.innerHTML;
     const root = document.querySelector('#theTime').innerHTML;
@@ -17,14 +15,11 @@ export default function Page3() {
   };
 
   return (
-    <>
-      <WebView
-        ref={ref}
-        source={{ uri: 'https://www.worldtimeserver.com/current_time_in_US-NY.aspx' }}
-        javaScriptEnabled={true}
-        injectedJavaScript={jsCode}
-        onMessage={onMessage}
-      />
-    </>
+    <WebView
+      source={{ uri: 'https://www.worldtimeserver.com/current_time_in_US-NY.aspx' }}
+      javaScriptEnabled={true}
+      injectedJavaScript={jsCode}
+      onMessage={onMessage}
+    />
   );
 }
