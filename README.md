@@ -18,3 +18,9 @@ pnpm dev
 ```
 pnpm build
 ```
+
+## Features
+
+1. Tab navigation
+2. Scrape time and display in two components
+3. Safari Exstention
