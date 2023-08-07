@@ -1,5 +1,11 @@
 <h1 align="center">Project - Expo Web Scraper</h1>
 
+## Features
+
+1. Tab navigation
+2. Scrape time and display in two components
+3. Safari Exstention
+
 ### Requirements
 
 - Node.js 16.20.0 LTS https://nodejs.org/en
@@ -18,9 +24,3 @@ pnpm dev
 ```
 pnpm build
 ```
-
-## Features
-
-1. Tab navigation
-2. Scrape time and display in two components
-3. Safari Exstention
