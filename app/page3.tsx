@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Alert } from 'react-native';
 import WebView, { WebViewMessageEvent } from 'react-native-webview';
 
