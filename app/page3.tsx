@@ -1,6 +1,6 @@
 import React from 'react';
 import { Alert } from 'react-native';
-import WebView, { WebViewMessageEvent } from 'react-native-webview';
+import WebView, { type WebViewMessageEvent } from 'react-native-webview';
 
 export default function Page3() {
   const jsCode = `
