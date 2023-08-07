@@ -6,6 +6,8 @@
 2. Scrape time and display in two components
 3. Safari Exstention
 
+## Setup Locally
+
 ### Requirements
 
 - Node.js 16.20.0 LTS https://nodejs.org/en
